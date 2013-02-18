@@ -1,0 +1,89 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <header android:title="@string/user_interface" />
+
+    <header
+        android:id="@+id/user_interface"
+        android:fragment="com.orca.settings.fragments.UserInterface"
+        android:title="@string/general_ui"
+        android:icon="@drawable/ic_rom_control_general_ui"
+        android:summary="@string/header_summary_general_ui" />
+
+    <header
+        android:id="@+id/lockscreen"
+        android:fragment="com.orca.settings.fragments.Lockscreens"
+        android:title="@string/lockscreen_options"
+        android:icon="@drawable/ic_rom_control_lockscreens"
+        android:summary="@string/header_summary_lockscreens" />
+
+    <header
+        android:id="@+id/power_menu"
+        android:fragment="com.orca.settings.fragments.PowerMenu"
+        android:title="@string/power_menu"
+        android:icon="@drawable/ic_rom_control_power_menu"
+        android:summary="@string/header_summary_power_menu" />
+
+     <header
+        android:id="@+id/nav_bar"
+        android:fragment="com.orca.settings.fragments.Navbar"
+        android:title="@string/nav_bar"
+        android:icon="@drawable/ic_rom_control_navigation_bar"
+        android:summary="@string/header_summary_navigation_bar" />
+
+    <header
+        android:id="@+id/statusbar"
+        android:title="@string/header_statusbar" />
+
+    <header
+        android:id="@+id/statusbar_battery"
+        android:title="@string/battery"
+        android:fragment="com.orca.settings.fragments.StatusBarBattery"
+        android:icon="@drawable/ic_rom_control_battery"
+        android:summary="@string/header_summary_battery" />
+
+    <header
+        android:id="@+id/statusbar_clock"
+        android:fragment="com.orca.settings.fragments.StatusBarClock"
+        android:summary="@string/header_summary_clock"
+        android:icon="@drawable/ic_rom_control_clock"
+        android:title="@string/clock" />
+
+    <header
+        android:id="@+id/statusbar_signal"
+        android:title="@string/signal"
+        android:fragment="com.orca.settings.fragments.StatusBarSignal"
+        android:icon="@drawable/ic_rom_control_signal"
+        android:summary="@string/header_summary_signal" />
+
+        <header
+        android:id="@+id/statusbar_toggles"
+        android:title="@string/title_statusbar_toggles"
+        android:fragment="com.orca.settings.fragments.StatusBarToggles"
+        android:icon="@drawable/ic_rom_control_quick_settings"
+        android:summary="@string/header_summary_signal" />
+
+    <header
+        android:id="@+id/system"
+        android:title="@string/header_system" />
+
+    <header
+        android:id="@+id/led"
+        android:fragment="com.orca.settings.fragments.LEDControl"
+        android:title="@string/led_options"
+        android:icon="@drawable/ic_rom_control_led"
+        android:summary="@string/header_summary_led" />
+
+    <header
+        android:id="@+id/sound"
+        android:fragment="com.orca.settings.fragments.Sound"
+        android:title="@string/sound"
+        android:icon="@drawable/ic_rom_control_sound"
+        android:summary="@string/header_summary_sound" />
+
+    <header
+        android:id="@+id/vibrations"
+        android:title="@string/vibrations"
+        android:summary="@string/header_summary_vibrations"
+        android:icon="@drawable/ic_rom_control_vibrations"
+        android:fragment="com.orca.settings.fragments.Vibrations" />
+</preference-headers>
